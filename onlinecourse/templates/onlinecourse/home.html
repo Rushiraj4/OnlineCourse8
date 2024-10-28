@@ -1,0 +1,5 @@
+# In views.py
+from django.shortcuts import redirect
+
+def home(request):
+    return redirect('onlinecourse:index')  # Redirect to the course list view
